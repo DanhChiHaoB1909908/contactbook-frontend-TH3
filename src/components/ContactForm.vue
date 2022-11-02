@@ -2,7 +2,7 @@
     <Form @submit="submitContact" :validation-schema="contactFormSchema">
         <div class="form-group">
             <label for="name">Tên</label>
-            <Field name="name" type="text" class="form-control" v-model="contactLocal.name"/>
+            <Field name="name" type="text" class="form-control" v-model="contactLocal.name" />
             <ErrorMessage name="name" class="error-feedback" />
         </div>
         <div class="form-group">
@@ -88,5 +88,5 @@ export default {
 </script>
 
 <style scoped>
-/* @import "@/assets/form.css"; */
+@import "@/assets/form.css";
 </style>
